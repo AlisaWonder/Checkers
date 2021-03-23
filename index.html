@@ -6,21 +6,194 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<title>Document</title>
 </head>
 
 <body>
 	<div class="wrapper">
+		<div class="header">
+			<div class="nav__wrapper">
+
+			</div>
+		</div>
 		<main class="page">
 			<section class="offer">
-
+				<h1 class="title">Онлайн шашки</h1>
+				<a href="#game" class="play__btn btn">Играть</a>
 			</section>
+			<div class="image">
+				<img src="img/offer.png" alt="" width="100%" height="70%">
+			</div>
 			<section class="about">
-
+				<h2 class="about__title subtitle">Про игру</h2>
+				<p class="about__text text">Шашки - классическая настольная игра, история которой уходит в глубокую
+					древность и
+					до сих пор считается загадкой. В
+					Россию шашки пришли из Скандинавии. В эту игру был обязан уметь играть каждый русский рыцарь. Петр I
+					обажал шашки.
+					Сначала Русские шашки были очень просты в правилах. Два игрока просто выстраивали определенную фигуру на
+					игровом поле,
+					но игра совершенствовалась, появилась определенная тактика ходов, ввели дамки и пешки.</p>
 			</section>
-			<section class="game">
-
+			<div class="image-about">
+				<img src="img/bg.png" alt="">
+			</div>
+			<section class="rules">
+				<h2 class="rules__title subtitle">Правила</h2>
+				<p class="rules__text text">Доска 8х8, игровые клетки черные, шашки занимают первые три ряда с каждой
+					стороны;
+					бить можно произвольное количество
+					шашек в любых направлениях. Противники ходят поочередно, перемещая шашки своего цвета по игровым полям.
+					Простая шашка
+					ходит только вперед, но может бить назад, дамка (шашка, которая дошла до последней горизонтали) может
+					ходить на любое
+					число полей; цель игры - съесть или запереть все шашки противника.
+				</p>
 			</section>
+			<section class="game" id="game">
+				<div class="title">Let’s play</div>
+				<table>
+					<tr>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="00"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="01"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="02"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="03"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p class="white" id="04"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="05"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="06"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="07"></p>
+						</td>
+						<td class="nothingHere"></td>
+					</tr>
+					<tr>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="08"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="09"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="10"></p>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<p class="white" id="11"></p>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="nothingHere"></td>
+						<td></td>
+						<td class="nothingHere"></td>
+						<td></td>
+						<td class="nothingHere"></td>
+						<td></td>
+						<td class="nothingHere"></td>
+					</tr>
+					<tr>
+						<td class="nothingHere"></td>
+						<td></td>
+						<td class="nothingHere"></td>
+						<td></td>
+						<td class="nothingHere"></td>
+						<td></td>
+						<td class="nothingHere"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>
+							<div class="black" id="13"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="14"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="15"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="16"></div>
+						</td>
+						<td class="nothingHere"></td>
+					</tr>
+					<tr>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="17"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="18"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="19"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="20"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="black" id="21"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="22"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="23"></div>
+						</td>
+						<td class="nothingHere"></td>
+						<td>
+							<div class="black" id="24"></div>
+						</td>
+						<td class="nothingHere"></td>
+					</tr>
+				</table>
+				<div class="turn">
+					<div class="white-turn">Белые ходят</div>
+					<div class="black-turn">Черные ходят</div>
+				</div>
+			</section>
+			<footer>
+
+			</footer>
 		</main>
 
 	</div>

@@ -78,3 +78,177 @@ h6 {
 	font-weight: 400;
 }
 /*--------------------*/
+.wrapper {
+	min-height: 100%;
+	background: rgb(0, 0, 0);
+}
+
+.page {
+}
+.title {
+	font-size: 72px;
+	font-family: "Alegreya SC", serif;
+	color: #fbeed5;
+	font-weight: 800;
+}
+
+.subtitle {
+	font-size: 40px;
+	font-family: "Alegreya SC", serif;
+	color: #fbeed5;
+	font-weight: 800;
+}
+
+.text {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	line-height: 209%;
+}
+
+.btn {
+	background: #fef3dd;
+	border-radius: 22px;
+	filter: drop-shadow(0px 0px 16px #ff6666);
+	font-weight: 800;
+	font-size: 34px;
+	line-height: 71.5%;
+	/* or 24px */
+	color: #ff6666;
+	padding: 18px 33px 18px 33px;
+	transition: color 3s ease-in;
+}
+
+.btn:hover {
+	background-color: #f6cf90; /* Green */
+	color: white;
+}
+
+.offer {
+	max-width: 1079px;
+	margin: 0 auto;
+	padding: 120px 0px 80px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about {
+	max-width: 1079px;
+	margin: 0 auto;
+	padding: 100px 0px 0px 0px;
+}
+
+.about__title {
+}
+
+.about__text {
+	max-width: 50%;
+	margin-top: 10px;
+}
+
+.image-about {
+	display: flex;
+	max-height: 450px;
+	justify-content: flex-end;
+}
+
+.rules {
+	max-width: 1079px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.rules__title {
+}
+
+.subtitle {
+}
+.about {
+}
+
+.rules__text {
+	margin-top: 10px;
+}
+.text {
+}
+
+.game {
+	max-width: 1079px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+table {
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+td {
+	background: #7c4e00;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+}
+
+.nothingHere {
+	background: #fbeed5;
+}
+
+.white {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background: rgb(241, 241, 241);
+	border: 2px solid #fdd37d;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.black {
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	background: rgb(0, 0, 0);
+	border: 2px solid #797979;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.king .white {
+	transition: all 3s ease-in;
+	background: rgb(255, 243, 134);
+}
+
+.king .black {
+	transition: all 3s ease-in;
+	background: rgb(39, 3, 87);
+}
+
+.turn {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.white-turn {
+	padding-right: 20px;
+	font-family: "Alegreya SC", serif;
+	text-decoration: underline;
+	color: #fbeed5;
+	font-weight: 800;
+	font-size: 22px;
+	transition: color 3s ease-in;
+}
+
+.black-turn {
+	color: rgb(82, 82, 82);
+	padding-left: 20px;
+	font-family: "Alegreya SC", serif;
+	font-weight: 800;
+	font-size: 22px;
+	transition: color 3s ease-in;
+}
