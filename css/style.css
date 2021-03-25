@@ -83,8 +83,6 @@ h6 {
 	background: rgb(0, 0, 0);
 }
 
-.page {
-}
 .title {
 	font-size: 72px;
 	font-family: "Alegreya SC", serif;
@@ -160,18 +158,8 @@ h6 {
 	margin-top: 20px;
 }
 
-.rules__title {
-}
-
-.subtitle {
-}
-.about {
-}
-
 .rules__text {
 	margin-top: 10px;
-}
-.text {
 }
 
 .game {
@@ -218,13 +206,11 @@ td {
 	margin: 0 auto;
 }
 
-.king .white {
-	transition: all 3s ease-in;
+.white.king {
 	background: rgb(255, 243, 134);
 }
 
-.king .black {
-	transition: all 3s ease-in;
+.black.king {
 	background: rgb(39, 3, 87);
 }
 
